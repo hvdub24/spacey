@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title style="font-size:10vw">Space-Y</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+</head>
+
+
+<body>
+
+
+    <div style="text-align: center; padding-left: 200px; padding-right: 200px;">
+        <div id="mylogo">
+            <img src="images/spacex.png">
+        </div>
+        <!---pop up to show the nearest earth orbit-->
+        <!-- Trigger/Open The Modal -->
+
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h1 id="aster" class="infoHeader">Random Asteroid Located:</h1>
+                <h2 id="NEOname" class="infoData">Loading ...</h2>
+                <h1 id="ded" class="infoHeader">Will it kill us?</h1>
+                <h2 id="willKill" class="infoData">Loading ...</h2>
+            </div>
+
+        </div>
+
+
+        <div style="text-align: center;" class="buttons">
+
+            <div class="action_btn">
+
+                <button id="myBtn" type="button" value="click" class="btn">Go into Orbit!</button>
+                <button id="quoteButton" class="btn">New Quote</button>
+
+                <p id="saved"></p>
+
+            </div>
+
+        </div>
+
+
+
+
+
+
+        <div style="text-align: center;" class="typewriter">
+            <h1 style="font-size: 25px;" id="tamana">This is a certified hood classic</h1>
+        </div>
+    </div>
+
+
+    <!--musk and car ovelayed on top of each other--->
+    <div style="position: absolute; float: left; text-align: center;">
+        <img src="images/roadster.png" alt="tesla roadster" style="width:604px;height:413px; vertical-align: bottom;" class="car">
+        <img src="images/musken.png" alt="lord musk's face" style="width:200px;height:190px; vertical-align: bottom;" class="musk">
+        <img src="images/astroid.png" alt="closest asteroid" class="astro">
+    </div>
+
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,239 @@
+body {
+    background-image: url("https://wallpapercave.com/wp/wp3284839.gif");
+    background-color: "color: powderblue";
+    justify-content: center;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+}
+
+p {
+    color: red;
+    color: red;
+}
+
+
+/*musken head and roadster overlay*/
+
+.musk {
+    position: relative;
+    bottom: 210px;
+    right: 440px;
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+
+
+/*musk bobbin his head animation*/
+
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
+
+
+/*Asteroid position*/
+
+.astro {
+    position: relative;
+    top: 50;
+    left: 250;
+}
+
+
+/* DEMO-SPECIFIC STYLES */
+
+.typewriter h1 {
+    color: rgb(255, 114, 58);
+    font-family: 'Waiting for the Sunrise', cursive;
+    overflow: hidden;
+    margin: 0 auto;
+    /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em;
+    /* Adjust as needed */
+}
+
+.btn {
+    background: rgb(194, 0, 0);
+    border-bottom: 6px inset rgba(102, 0, 0, 0.5);
+    border-left: 6px inset rgba(102, 0, 0, .5);
+    border-right: 6px inset rgba(255, 255, 255, .5);
+    border-top: 6px inset rgba(255, 255, 255, .5);
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 2.2rem;
+    margin: 1rem;
+    min-width: 200px;
+    padding: .5rem;
+    text-transform: uppercase;
+    width: auto;
+}
+
+.btn:hover {
+    background-color: rgb(169, 3, 3);
+}
+
+
+/* The typing effect */
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+    to {
+        width: 100%
+    }
+}
+
+
+/* The typewriter cursor effect */
+
+@keyframes blink-caret {
+    from,
+    to {
+        border-color: transparent
+    }
+    50% {
+        border-color: orange
+    }
+}
+
+
+/* modal or pop up design*/
+
+
+/* The Modal (background) */
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 10;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+
+/* Modal Content */
+
+.modal-content {
+    background-color: rgba(255, 255, 255, 0.911);
+    margin: auto;
+    padding: 10px;
+    border: 3px inset rgb(245, 58, 25);
+    width: 80%;
+    border-radius: 25px;
+}
+
+.modal-content .close .h2 {
+    color: red;
+}
+
+
+/* The Close Button */
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+h1 {
+    color: white;
+    justify-content: center
+}
+
+.infoHeader {
+    color: red;
+    font-weight: bold;
+}
+
+.infoData {
+    color: black;
+    font-weight: normal;
+}
+
+.h1tag {
+    color: black;
+}
+
+#mylogo {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#ded {
+    color: red
+}
+
+#aster {
+    color: green
+}
+
+.h2 {
+    color: blue
+}
+
+.spin_btn {
+    background-color: white;
+    color: black;
+    border: 2px solid #2b09a5;
+    border-radius: 25px;
+    padding: 1rem;
+}
